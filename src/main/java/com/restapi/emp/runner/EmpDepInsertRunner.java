@@ -20,6 +20,7 @@ public class EmpDepInsertRunner implements ApplicationRunner {
     final DepartmentRepository departmentRepository;
     final EmployeeRepository employeeRepository;
 
+    //Constructor Injection ( 생성자 주입 )
 //    public EmpDepInsertRunner(DepartmentRepository departmentRepository, EmployeeRepository employeeRepository) {
 //        this.departmentRepository = departmentRepository;
 //        this.employeeRepository = employeeRepository;
